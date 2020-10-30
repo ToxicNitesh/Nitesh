@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style id="applicationStylesheet" type="text/css">
+        .mediaViewInfo {
+            --web-view-name: Nogozo-Home;
+            --web-view-id: Nogozo-Home;
+            --web-scale-on-resize: true;
+            --web-enable-deep-linking: true;
+        }
+        :root {
+            --web-view-ids: Nogozo-Home;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: none;
+        }
+        #Nogozo-Home {
+            position: absolute;
+            width: 1920px;
+            height: 1927px;
+            background-color: rgba(23,22,26,1);
+            overflow: hidden;
+            --web-view-name: Nogozo-Home;
+            --web-view-id: Nogozo-Home;
+            --web-scale-on-resize: true;
+            --web-enable-deep-linking: true;
+        }
+        #Navbar {
+            position: absolute;
+            width: 1920px;
+            height: 118px;
+            left: 0px;
+            top: 0px;
+            overflow: visible;
+        }
+        #Rectangle_1 {
+            fill: rgba(44,89,144,1);
+        }
+        .Rectangle_1 {
+            position: absolute;
+            overflow: visible;
+            width: 1920px;
+            height: 118px;
+            left: 0px;
+            top: 0px;
+        }
+        #Home {
+            left: 1271px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 76px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(255,255,255,1);
+        }
+        #About_Us {
+            left: 1409px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 116px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(255,255,255,1);
+        }
+        #Shop {
+            left: 1573px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 65px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(255,255,255,1);
+        }
+        #Login {
+            left: 1713px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 71px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(255,255,255,1);
+        }
+        #logo {
+            position: absolute;
+            width: 203px;
+            height: 74px;
+            left: 140px;
+            top: 30px;
+            overflow: visible;
+        }
+        #Rectangle_7 {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_7 {
+            position: absolute;
+            overflow: visible;
+            width: 674px;
+            height: 54px;
+            left: 554px;
+            top: 33px;
+        }
+        #Rectangle_8 {
+            fill: rgba(255,255,255,1);
+            stroke: rgba(112,112,112,1);
+            stroke-width: 1px;
+            stroke-linejoin: miter;
+            stroke-linecap: butt;
+            stroke-miterlimit: 4;
+            shape-rendering: auto;
+        }
+        .Rectangle_8 {
+            position: absolute;
+            overflow: visible;
+            width: 74px;
+            height: 54px;
+            left: 1154px;
+            top: 33px;
+        }
+        #Search {
+            position: absolute;
+            width: 26.906px;
+            height: 26.906px;
+            left: 1174px;
+            top: 46px;
+            overflow: visible;
+        }
+        #Path_2 {
+            fill: rgba(44,89,144,1);
+        }
+        .Path_2 {
+            overflow: visible;
+            position: absolute;
+            width: 26.906px;
+            height: 26.906px;
+            left: 0px;
+            top: 0px;
+            transform: matrix(1,0,0,1,0,0);
+        }
+        #Search_r {
+            left: 575px;
+            top: 41px;
+            position: absolute;
+            overflow: visible;
+            width: 88px;
+            white-space: nowrap;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 28px;
+            color: rgba(44,89,144,1);
+        }
+        #Welcome_to_Apna_Wala_E-bazaar {
+            left: 140px;
+            top: 366px;
+            position: absolute;
+            overflow: visible;
+            width: 676px;
+            height: 204px;
+            text-align: left;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 68px;
+            color: rgba(44,89,144,1);
+        }
+        #Order_Grocery_Online-removebg- {
+            position: absolute;
+            width: 1024px;
+            height: 817px;
+            left: 814px;
+            top: 59px;
+            overflow: visible;
+        }
+        #Categories_section {
+            position: absolute;
+            width: 1653px;
+            height: 892px;
+            left: 139px;
+            top: 968px;
+            overflow: visible;
+        }
+        #Rectangle_9 {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9 {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 1px;
+            top: 88px;
+        }
+        #Rectangle_9_w {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_w {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 419px;
+            top: 88px;
+        }
+        #Rectangle_9_x {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_x {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 837px;
+            top: 88px;
+        }
+        #Rectangle_9_y {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_y {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 1255px;
+            top: 88px;
+        }
+        #Rectangle_9_z {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_z {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 1px;
+            top: 511px;
+        }
+        #Rectangle_9_ {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_ {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 419px;
+            top: 511px;
+        }
+        #Rectangle_9_ba {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_ba {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 837px;
+            top: 511px;
+        }
+        #Rectangle_9_bb {
+            fill: rgba(255,255,255,1);
+        }
+        .Rectangle_9_bb {
+            position: absolute;
+            overflow: visible;
+            width: 398px;
+            height: 381px;
+            left: 1255px;
+            top: 511px;
+        }
+        #Categories {
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            overflow: hidden;
+            width: 220px;
+            height: 48px;
+            text-align: left;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            color: rgba(44,89,144,1);
+        }
+        #f491929e8d76a514e11afed24ff091 {
+            position: absolute;
+            width: 286px;
+            height: 286px;
+            left: 57px;
+            top: 75px;
+            overflow: visible;
+        }
+        #Grocery__Essentials_ {
+            left: 83px;
+            top: 386px;
+            position: absolute;
+            overflow: hidden;
+            width: 235px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Fruits__Vegetables_ {
+            left: 501px;
+            top: 386px;
+            position: absolute;
+            overflow: hidden;
+            width: 235px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Stationery_ {
+            left: 1396px;
+            top: 386px;
+            position: absolute;
+            overflow: hidden;
+            width: 117px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Nogazo_Special_ {
+            left: 1370px;
+            top: 796px;
+            position: absolute;
+            overflow: hidden;
+            width: 169px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Dairy_Products_ {
+            left: 957px;
+            top: 796px;
+            position: absolute;
+            overflow: hidden;
+            width: 159px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Electronics_ {
+            left: 551px;
+            top: 796px;
+            position: absolute;
+            overflow: hidden;
+            width: 135px;
+            height: 29px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Fashion__Personal_Care_ {
+            left: 83px;
+            top: 796px;
+            position: absolute;
+            overflow: hidden;
+            width: 212px;
+            height: 68px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #Food_Outlets__Restaurants_ {
+            left: 951px;
+            top: 386px;
+            position: absolute;
+            overflow: hidden;
+            width: 171px;
+            height: 68px;
+            text-align: left;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            color: rgba(44,89,144,1);
+        }
+        #ID2126fe8d10cca92a4930d30c6cf3 {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            left: 493px;
+            top: 102px;
+            overflow: visible;
+        }
+        #ID61c9f13bb2f98ddc0a52ccf14360 {
+            position: absolute;
+            width: 282px;
+            height: 282px;
+            left: 899px;
+            top: 88px;
+            overflow: visible;
+        }
+        #kissclipart-exercise-book-clip {
+            position: absolute;
+            width: 337px;
+            height: 242px;
+            left: 1304px;
+            top: 119px;
+            overflow: visible;
+        }
+        #da33e0adf9ab31e82b8a961f27c10c {
+            position: absolute;
+            width: 336px;
+            height: 238px;
+            left: 32px;
+            top: 544px;
+            overflow: visible;
+        }
+        #household-appliances-electroni {
+            position: absolute;
+            width: 281px;
+            height: 281px;
+            left: 478px;
+            top: 530px;
+            overflow: visible;
+        }
+        #ID77570222-milk-and-dairy-prod {
+            position: absolute;
+            width: 338px;
+            height: 237px;
+            left: 867px;
+            top: 559px;
+            overflow: visible;
+        }
+        #ID102353390-supermarket-set-pr {
+            position: absolute;
+            width: 245px;
+            height: 245px;
+            left: 1332px;
+            top: 540px;
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <div id="Nogozo-Home">
+        <div id="Navbar">
+            <svg class="Rectangle_1">
+                <rect id="Rectangle_1" rx="0" ry="0" x="0" y="0" width="1920" height="118"><input type="text">
+                </rect>
+            </svg>
+            <div id="Home">
+                <a href="index.html"><span>Home</span></a>
+            </div>
+            <div id="About_Us">
+                <a href="About.html"><span>About Us</span></a>
+            </div>
+            <div id="Shop">
+                <a href="#"><span>Shop</span></a>
+            </div>
+            <div id="Login">
+                <a href="INtern.html"<span>Login</span></div></a>
+            </div>
+            <img id="logo" src="logo.png" srcset="logo.png 1x, logo@2x.png 2x">
+            <svg class="Rectangle_7">
+                <rect id="Rectangle_7" rx="8" ry="8" x="0" y="0" width="674" height="54">
+                </rect>
+            </svg>
+            <svg class="Rectangle_8">
+                <rect id="Rectangle_8" rx="0" ry="0" x="0" y="0" width="74" height="54">
+                </rect>
+            </svg>
+            <div id="Search" class="Search">
+                <svg class="Path_2" viewBox="0 0 26.906 26.906">
+                    <path id="Path_2" d="M 3.363264083862305 11.77142429351807 C 3.363264083862305 7.062854290008545 7.062854290008545 3.363264083862305 11.77142429351807 3.363264083862305 C 16.47999382019043 3.363264083862305 20.17958450317383 7.062854290008545 20.17958450317383 11.77142429351807 C 20.17958450317383 16.47999382019043 16.47999382019043 20.17958450317383 11.77142429351807 20.17958450317383 C 7.062854290008545 20.17958450317383 3.363264083862305 16.47999382019043 3.363264083862305 11.77142429351807 Z M 24.04733848571777 26.4016227722168 C 24.71998977661133 27.07427597045898 25.72897148132324 27.07427597045898 26.4016227722168 26.4016227722168 C 27.07427597045898 25.72897148132324 27.07427597045898 24.71998977661133 26.4016227722168 24.04733848571777 L 21.18856430053711 18.83428001403809 C 22.7020320892334 16.81632041931152 23.54284858703613 14.4620361328125 23.54284858703613 11.77142429351807 C 23.54284858703613 5.213058948516846 18.32978820800781 0 11.77142429351807 0 C 5.213059902191162 0 0 5.213058948516846 0 11.77142429351807 C 0 18.32978820800781 5.213058948516846 23.54284858703613 11.77142429351807 23.54284858703613 C 14.4620361328125 23.54284858703613 16.81632041931152 22.7020320892334 18.83427810668945 21.18856430053711 L 24.04733848571777 26.4016227722168 Z">
+                    </path>
+                </svg>
+            </div>
+            <div id="Search_r">
+                <span>Search</span>
+            </div>
+        </div>
+        <div id="Welcome_to_Apna_Wala_E-bazaar">
+            <span>Welcome to Apna Wala </span><span style="color:rgba(48,194,239,1);">E-bazaar</span>
+        </div>
+        <img id="Order_Grocery_Online-removebg-" src="Order_Grocery_Online-removebg-.png" srcset="Order_Grocery_Online-removebg-.png 1x, Order_Grocery_Online-removebg-@2x.png 2x">
+        <div id="Categories_section">
+            <svg class="Rectangle_9">
+                <rect id="Rectangle_9" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_w">
+                <rect id="Rectangle_9_w" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_x">
+                <rect id="Rectangle_9_x" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_y">
+                <rect id="Rectangle_9_y" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_z">
+                <rect id="Rectangle_9_z" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_">
+                <rect id="Rectangle_9_" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_ba">
+                <rect id="Rectangle_9_ba" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <svg class="Rectangle_9_bb">
+                <rect id="Rectangle_9_bb" rx="8" ry="8" x="0" y="0" width="398" height="381">
+                </rect>
+            </svg>
+            <div id="Categories">
+                <span>Categories</span>
+            </div>
+            <form action="list.html" method="GET">
+
+                <img id="f491929e8d76a514e11afed24ff091" src="f491929e8d76a514e11afed24ff091.png" srcset="f491929e8d76a514e11afed24ff091.png 1x, f491929e8d76a514e11afed24ff091@2x.png 2x">
+                <div id="Grocery__Essentials_">
+                    <a href="list.html" style="text-decoration: none;"><span >Grocery & Essentials</span></a><br>
+                </div>
+            </form>
+            <div id="Fruits__Vegetables_">
+                <span>Fruits & Vegetables</span><br>
+            </div>
+            <div id="Stationery_">
+                <span>Stationery</span><br>
+            </div>
+            <div id="Nogazo_Special_">
+                <span>Nogazo Special</span><br>
+            </div>
+            <div id="Dairy_Products_">
+                <span>Dairy Products</span><br>
+            </div>
+            <div id="Electronics_">
+                <span>Electronics</span><br>
+            </div>
+            <div id="Fashion__Personal_Care_">
+                <span>Fashion & Personal Care</span><br>
+            </div>
+            <div id="Food_Outlets__Restaurants_">
+                <span>Food Outlets & Restaurants</span><br>
+            </div>
+            <img id="ID2126fe8d10cca92a4930d30c6cf3" src="ID2126fe8d10cca92a4930d30c6cf3.png" srcset="ID2126fe8d10cca92a4930d30c6cf3.png 1x, ID2126fe8d10cca92a4930d30c6cf3@2x.png 2x">
+            <img id="ID61c9f13bb2f98ddc0a52ccf14360" src="ID61c9f13bb2f98ddc0a52ccf14360.png" srcset="ID61c9f13bb2f98ddc0a52ccf14360.png 1x, ID61c9f13bb2f98ddc0a52ccf14360@2x.png 2x">
+            <img id="kissclipart-exercise-book-clip" src="kissclipart-exercise-book-clip.png" srcset="kissclipart-exercise-book-clip.png 1x, kissclipart-exercise-book-clip@2x.png 2x">
+            <img id="da33e0adf9ab31e82b8a961f27c10c" src="da33e0adf9ab31e82b8a961f27c10c.png" srcset="da33e0adf9ab31e82b8a961f27c10c.png 1x, da33e0adf9ab31e82b8a961f27c10c@2x.png 2x">
+            <img id="household-appliances-electroni" src="household-appliances-electroni.png" srcset="household-appliances-electroni.png 1x, household-appliances-electroni@2x.png 2x">
+            <img id="ID77570222-milk-and-dairy-prod" src="ID77570222-milk-and-dairy-prod.png" srcset="ID77570222-milk-and-dairy-prod.png 1x, ID77570222-milk-and-dairy-prod@2x.png 2x">
+            <img id="ID102353390-supermarket-set-pr" src="ID102353390-supermarket-set-pr.png" srcset="ID102353390-supermarket-set-pr.png 1x, ID102353390-supermarket-set-pr@2x.png 2x">
+        </div>
+    </div>
+    
+</body>
+</html>
